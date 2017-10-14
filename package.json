@@ -20,6 +20,11 @@
     },
     "dependencies": {
         "bootstrap": "^4.0.0-beta",
-        "font-awesome": "^4.7.0"
+        "eonasdan-bootstrap-datetimepicker": "^4.17.47",
+        "font-awesome": "^4.7.0",
+        "moment": "^2.19.1",
+        "popper.js": "^1.12.5",
+        "tooltip.js": "^1.1.5",
+        "vue-router": "^3.0.1"
     }
 }

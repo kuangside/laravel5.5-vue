@@ -9,8 +9,11 @@ window._ = require('lodash');
 
 try {
     window.$ = window.jQuery = require('jquery');
-
+    window.Popper = require('popper.js').default;
+    window.Popper = require('tooltip.js').default;
     require('bootstrap');
+    require('moment');
+    // require('eonasdan-bootstrap-datetimepicker');
 } catch (e) {}
 
 /**
